@@ -1,4 +1,3 @@
-FCIS Activities
 
 FCIS Activities application for FCIS student activities
 
