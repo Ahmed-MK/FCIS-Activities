@@ -28,7 +28,7 @@ class _ActivitiesListViewState extends State<ActivitiesListView> {
                   elevation: 2.0,
                   child: Column(
                     children: <Widget>[
-                      Image.network(snapshot.data[index].foreground),
+                      Image.network(snapshot.data[index].background),
                       Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[

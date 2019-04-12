@@ -1,5 +1,6 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:fcis_activities/ActivitiesListView.dart';
+import 'package:fcis_activities/drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
         accentColor: Colors.orangeAccent,
+        splashColor: Colors.orangeAccent,
       ),
       home: MyHomePage(title: 'FCIS Activities'),
     );
@@ -30,7 +32,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+        ),
         centerTitle: true,
         actions: <Widget>[
           IconButton(
@@ -41,9 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: ActivitiesListView(),
-      drawer: Drawer(
-        child: Text("Test"),
-      ),
+      drawer: DrawerMenu(),
     );
   }
 }
