@@ -1,4 +1,3 @@
-# fcis_activities
 
 FCIS Activities application for FCIS student activities
 
