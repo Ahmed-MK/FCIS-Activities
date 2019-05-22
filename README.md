@@ -1,14 +1,17 @@
-FCIS Activities application for FCIS student activities
+## FCIS Activities
+## Flutter application to browse faculty of computer science ASU student activities
 
-## Getting Started
+# Widgets used
+- FutureBuilder
+- ListView
+- Drawer
+- CustomScrollView
+- SliverAppBar
 
-This project is a starting point for a Flutter application.
+# Activity Data
+Data is fetched using http request to a JS API with the student activity data
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+![mainPage](https://github.com/Ahmed-MK/FCIS-Activities/blob/master/assets/Screenshots/mainPage.png)
+![detailsPage](https://github.com/Ahmed-MK/FCIS-Activities/blob/master/assets/Screenshots/detailsPage.png)
+![drawer](https://github.com/Ahmed-MK/FCIS-Activities/blob/master/assets/Screenshots/drawer.png)
