@@ -1,0 +1,4 @@
+#Tue Apr 23 16:31:48 EET 2019
+base.0=/home/ahmed/AndroidStudioProjects/FCIS-Activities/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
