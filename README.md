@@ -1,5 +1,5 @@
 ## FCIS Activities
-# Flutter application to browse faculty of computer science ASU student activities
+Flutter application to browse faculty of computer science ASU student activities
 
 # Widgets used
 - FutureBuilder
